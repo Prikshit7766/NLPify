@@ -41,7 +41,7 @@ html_temp = """
 """
 st.markdown(html_temp, unsafe_allow_html = True)
 
-st.image('logo\logo.png', width=705)
+st.image('logo/logo.png', width=705)
 
 	# Title
 st.subheader("Natural Language Processing On the Go..")
