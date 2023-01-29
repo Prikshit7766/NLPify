@@ -89,3 +89,4 @@ wasabi==0.10.1
 watchdog==2.2.0
 wincertstore==0.2
 zipp==3.11.0
+textblob==0.17.1
