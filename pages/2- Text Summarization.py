@@ -2,7 +2,8 @@
 # Core Pkgs
 import streamlit as st 
 import os
-
+import nltk
+nltk.download('punkt')
 
 # NLP Pkgs
 from textblob import TextBlob 
