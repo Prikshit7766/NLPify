@@ -15,7 +15,7 @@ html_temp = """
 st.markdown(html_temp, unsafe_allow_html = True)
 # Utils
 import joblib 
-pipe_lr = joblib.load(open(r"lr_sent.pkl","rb"))
+pipe_lr = joblib.load(open("lr_sent.pkl","rb"))
 
 
 # # Track Utils 
