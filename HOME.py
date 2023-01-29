@@ -41,7 +41,7 @@ html_temp = """
 """
 st.markdown(html_temp, unsafe_allow_html = True)
 
-st.image(r'logo\logo.png', width=705)
+st.image('logo\logo.png', width=705)
 
 	# Title
 st.subheader("Natural Language Processing On the Go..")
@@ -54,7 +54,7 @@ st.markdown("""
 from PIL import Image,ImageFilter,ImageEnhance
 
 if st.checkbox("Model Architecture"):
-    st.image(r'arch.png')
+    st.image('arch.png')
 
 st.sidebar.subheader("By")
 st.sidebar.text("Rakshit Khajuria - 19bec109")
