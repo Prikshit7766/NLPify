@@ -18,8 +18,8 @@ st.markdown(html_temp, unsafe_allow_html = True)
 st.title("Sentiment EDA App")
 st.subheader("EDA Web App with Streamlit ")
 
-my_dataset = "/data\clean_data.csv"
-my_dataset_before = "/data\raw_data.csv"
+my_dataset = "data/clean_data.csv"
+my_dataset_before = "data/raw_data.csv"
 
 @st.cache(persist=True)
 def explore_data_before(dataset):
@@ -103,10 +103,10 @@ if st.checkbox("Preprocessed dataset"):
         st.write(data.shape[1])
 
 if st.checkbox("WordCloud for positive reviews."):
-    st.image(Image.open('images\positive.png'), caption='Sunrise by the mountains')
+    st.image(Image.open('images/positive.png'), caption='Sunrise by the mountains')
 
 if st.checkbox("WordCloud for negative reviews."):
-    st.image(Image.open('images\neg.png'), caption='Sunrise by the mountains')
+    st.image(Image.open('images/neg.png'), caption='Sunrise by the mountains')
 
 # if st.checkbox("Show Summary of Dataset"):
 # 	data = explore_data(my_dataset)
@@ -168,10 +168,10 @@ with col2:
         # st.pyplot(fig)   
 from PIL import Image,ImageFilter,ImageEnhance
 if st.checkbox("Logistic Regression Confusion Matrix"):
-    st.image(Image.open('images\filename.png'), caption='Sunrise by the mountains')
+    st.image(Image.open('images/filename.png'), caption='Sunrise by the mountains')
 
 if st.checkbox("Logistic Regression Classification Report"):
-    st.image(Image.open('images\classification_report.png'), caption='Sunrise by the mountains')
+    st.image(Image.open('images/classification_report.png'), caption='Sunrise by the mountains')
 
 # if st.checkbox("Simple Bar Plot with Matplotlib for Sentiments__"):
     #     data = explore_data(my_dataset)
