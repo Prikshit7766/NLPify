@@ -5,7 +5,7 @@ import os
 
 
 # NLP Pkgs
-from textblob import TextBlob 
+#from textblob import TextBlob 
 import spacy
 from gensim.summarization import summarize
 
