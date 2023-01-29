@@ -18,8 +18,8 @@ st.markdown(html_temp, unsafe_allow_html = True)
 st.title("Sentiment EDA App")
 st.subheader("EDA Web App with Streamlit ")
 
-my_dataset = "data\clean_data.csv"
-my_dataset_before = "data\raw_data.csv"
+my_dataset = "/data\clean_data.csv"
+my_dataset_before = "/data\raw_data.csv"
 
 @st.cache(persist=True)
 def explore_data_before(dataset):
