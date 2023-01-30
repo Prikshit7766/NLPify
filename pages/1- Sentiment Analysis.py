@@ -122,8 +122,7 @@ st.sidebar.text("NLPify App with Streamlit")
 st.sidebar.subheader("By")
 st.sidebar.text("Rakshit Khajuria - 19bec109")
 st.sidebar.text("Prikshit Sharma - 19bec062")
-st.sidebar.text("Angat Datta - 19bec010")
-st.sidebar.text("Bhargav Chalotra - 19bec019")
+
 
 	# st.sidebar.subheader("About App")
 	# st.sidebar.text("NLPiffy App with Streamlit")
