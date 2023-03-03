@@ -12,3 +12,11 @@ entity recognition, and text summarization, from app review data.
 transform the raw data into a machinereadable format.
 3. Created a Binary classification model using logistic regression and a text vectorization pipeline to predict
 sentiment, and deployed the platform as a user-friendly web app using the Streamlit framework.
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h1 align="center">Contributors</h1>
+
+- [Rakshit Khajuria](https://github.com/Ryzxxl)
+- [Prikshit Sharma](https://github.com/Prikshit7766)
